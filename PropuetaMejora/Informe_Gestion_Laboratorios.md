@@ -2,7 +2,9 @@
 
 ## 1. Introducción
 
-Presentar brevemente la importancia de los laboratorios, los problemas actuales de gestión y el propósito general del informe.
+Los laboratorios de computación son fundamentales para las actividades académicas y el desarrollo de proyectos. Sin embargo, su gestión puede presentar problemas relacionados con la asignación de horarios, el mantenimiento de equipos, la instalación de software, el control de licencias y la falta de responsabilidades claramente definidas.
+
+El presente informe analiza estos problemas y propone una organización que permita mejorar la gestión de los laboratorios, incluyendo la definición de roles, la reserva de horarios, la solicitud de imágenes Docker y el control del software utilizado.
 
 ## 2. Objetivos
 
