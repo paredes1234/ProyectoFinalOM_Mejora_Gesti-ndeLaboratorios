@@ -1,10 +1,16 @@
 ## 1. Análisis de los documentos revisados
 
-Explicar qué aspectos de los documentos fueron considerados adecuados, cuáles presentan limitaciones y qué elementos necesitan ser ampliados.
-
 ### 1.1 Problemas identificados
 
-Señalar los principales problemas relacionados con horarios, equipos, software, imágenes Docker, licencias y responsabilidades.
+Al revisar la propuesta base, se identificaron los siguientes problemas:
+-Gestión fragmentada de equipos, usuarios, cursos y recursos digitales.
+-Pérdida de tiempo por instalaciones y configuraciones manuales.
+-Diferencias entre los entornos de trabajo de los laboratorios y las computadoras personales.
+-Falta de procesos claros para asignar horarios y reservar laboratorios.
+-Responsabilidades poco definidas entre profesores, alumnos, encargados y autoridades.
+-Ausencia de una política detallada para versionar, actualizar y retirar imágenes Docker.
+-Falta de control sobre el software instalado y sus respectivas licencias.
+-Escasa trazabilidad de solicitudes, cambios, aprobaciones e incidencias.
 
 ### 1.2 Comentarios a favor
 
