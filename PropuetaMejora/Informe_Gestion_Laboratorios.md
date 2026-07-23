@@ -129,5 +129,8 @@ En conclusión, la implementación de esta plataforma híbrida representa una so
 
 ## 3. Recomendaciones
 
-Proponer acciones prácticas para implementar y mejorar la gestión de los laboratorios.
-
+1. **Despliegue Piloto Progresivo:** Realizar una fase inicial de pruebas en laboratorios o asignaturas seleccionadas antes de la implementación a nivel de toda la escuela profesional.
+2. **Cronograma de Mantenimiento Preventivo:** Establecer revisiones periódicas de hardware, conectividad y servidores para asegurar los KPIs de disponibilidad.
+3. **Capacitación Continua:** Desarrollar talleres para docentes y estudiantes sobre la gestión de imágenes Docker y el portal de reservas.
+4. **Normativas de Seguridad y Respaldo:** Formalizar políticas de *backup* periódico de la base de datos central y perfiles de usuario.
+5. **Monitoreo y Auditoría Recurrente:** Revisar semestralmente el cumplimiento de licencias y el estado de depuración del repositorio de imágenes.
