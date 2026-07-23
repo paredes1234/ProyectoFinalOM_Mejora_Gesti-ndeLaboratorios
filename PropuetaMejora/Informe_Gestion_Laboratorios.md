@@ -38,7 +38,14 @@ Agregar comentarios complementarios sobre información faltante, contradicciones
 
 ### 3.5 Propuestas de mejora
 
-Plantear soluciones concretas para corregir o complementar los problemas identificados.
+Docker:
+
+1. Congelamiento Semestral de Entornos ("Cápsulas de Tiempo")
+El problema operativo: En el desarrollo de software, las herramientas y dependencias se actualizan con mucha frecuencia. Si la plataforma actualiza automáticamente una imagen de contenedor a mitad de un semestre, existe un alto riesgo de que el código que los alumnos han estado desarrollando deje de compilar o funcione de manera errática por incompatibilidades con la nueva versión.
+
+La solución propuesta: Establecer una política de procesos de "congelamiento de versiones" al inicio de cada ciclo académico. Una vez que el docente valida y aprueba la imagen oficial de su asignatura, esta se sella. Cualquier actualización técnica que el sistema detecte se documentará y encolará para ser evaluada e implementada recién en el siguiente semestre. Las únicas excepciones serán parches críticos de ciberseguridad.
+
+El beneficio organizativo: Garantiza predictibilidad y estabilidad operativa. Estudiantes y docentes tienen la certeza de que el entorno técnico será idéntico desde la primera clase hasta la entrega del proyecto final, eliminando horas improductivas de soporte técnico por errores de configuración.
 
 ## 4. Propuesta de organización para la gestión de laboratorios
 
