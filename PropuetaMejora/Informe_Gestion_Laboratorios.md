@@ -90,6 +90,8 @@ También se propone establecer un tiempo máximo para confirmar la reserva. Si e
 
 El beneficio organizativo: Esta mejora permitiría aprovechar mejor los laboratorios, reducir los cruces de horarios y mantener un registro de quién reservó cada espacio. Además, facilitaría la planificación académica y permitiría identificar horarios libres que podrían ser utilizados por estudiantes o proyectos.
 
+### d. Proceso formal de gestión de incidentes
+
 ## 2. Conclusiones
 
 Arquitectura Modular y Escalable: El diseño por capas y el uso del Modelo Spotify permiten que distintos equipos (squads) trabajen e integren mejoras de forma paralela sin romper la estabilidad del sistema general.  
