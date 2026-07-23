@@ -26,6 +26,18 @@ Al revisar la propuesta base, se identificaron los siguientes problemas:
 
 ### 1.3 Comentarios en contra
 
+Durante la revisión del Core y la Plataforma (Gestión de Usuarios y Accesos), se identificaron ciertos inconvenientes operativos, destacando los siguientes:
+### Riesgo de punto único de fallo:
+Si la capa central (como el sistema de autenticación Keycloak o la base de datos PostgreSQL) sufre una caída, todo el laboratorio queda inoperativo, impidiendo el acceso a los recursos y a los proyectos.  
+### Curva de integración compleja:
+Conectar herramientas de nivel empresarial de forma unificada exige un alto nivel técnico, lo que puede retrasar el desarrollo inicial si los equipos de alumnos no cuentan con la experiencia necesaria en arquitecturas complejas.  
+
+En cuanto a la infraestructura de Hardware y Operaciones del laboratorio, se detectaron las siguientes complicaciones técnicas:
+### Sobrecarga de mantenimiento físico y de red:
+El modelo requiere instalar agentes en cada computadora física para reportar su estado y depende de una infraestructura de red local impecable; cualquier falla en los equipos de red de la universidad haría colapsar la conexión.  
+### Altos costos de infraestructura:
+Mantener servidores dedicados, sistemas de almacenamiento y recursos virtualizados (como Proxmox o Kubernetes) genera gastos económicos recurrentes y ocultos que la institución deberá sostener a largo plazo.  
+
 Se observo alguno problemas de en la parte de manejo docker los cuales son:
 ### Inconsistencias de software: 
 El clásico problema de "funciona en mi máquina" generado por tener entornos no estandarizados con diferentes versiones de herramientas y librerías.
@@ -33,12 +45,14 @@ El clásico problema de "funciona en mi máquina" generado por tener entornos no
 La cantidad de horas que estudiantes y administradores desperdician realizando instalaciones y configuraciones manuales en lugar de programar.
 ### Dificultad de portabilidad: 
 La incapacidad de los estudiantes para replicar de forma fácil y exacta el mismo entorno del laboratorio en sus computadoras personales.
-### Ausencia de trazabilidad: 
-La falta de un registro claro y auditable sobre qué imágenes y software específico se utilizaron durante un curso o proyecto.
 ### Riesgo de actualizaciones:
 Una actualización durante el semestre podría generar incompatibilidades en los proyectos.
-### Falta de control de versiones:
-No se establece una política para conservar o reemplazar versiones anteriores.
+
+Por último, respecto al Frontend y la Experiencia de Usuario (Portal Web), se evidenciaron los siguientes retos a considerar:
+### Mantenimiento de desarrollo intensivo:
+Sostener una aplicación web personalizada (Custom UI) que consuma múltiples APIs resulta sumamente difícil de administrar a lo largo del tiempo, especialmente ante la constante rotación semestral de los estudiantes que la programan.  
+### Riesgo de desincronización de interfaz:
+Si el portal web sufre problemas de latencia y no logra reflejar el estado físico de los equipos en tiempo real (por ejemplo, mostrando como "disponible" una computadora que acaba de dañarse), se generará frustración y desconfianza en los estudiantes.
 
 ### 1.4 Observaciones
 
