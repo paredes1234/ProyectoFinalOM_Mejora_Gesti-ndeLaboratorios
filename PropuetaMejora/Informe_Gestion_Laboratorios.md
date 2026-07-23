@@ -35,7 +35,9 @@ No se establece una política para conservar o reemplazar versiones anteriores.
 
 ### 1.4 Observaciones
 
-Agregar comentarios complementarios sobre información faltante, contradicciones o temas que requieren mayor detalle.
+Se identificaron los siguientes aspectos que requieren mayor detalle:
+### Aplicación de parches críticos:
+Aunque se propone congelar las versiones durante el semestre, debe definirse el procedimiento para aplicar actualizaciones urgentes de seguridad.
 
 ### 1.5 Propuestas de mejora
 
