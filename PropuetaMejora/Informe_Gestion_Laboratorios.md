@@ -63,7 +63,10 @@ El beneficio organizativo: Optimización directa del tiempo efectivo de aprendiz
 
 ## 2. Conclusiones
 
-Resumir los principales resultados del análisis
+Arquitectura Modular y Escalable: El diseño por capas y el uso del Modelo Spotify permiten que distintos equipos (squads) trabajen e integren mejoras de forma paralela sin romper la estabilidad del sistema general.  
+Innovación en los Procesos: Más allá de las herramientas técnicas, el mayor valor del proyecto radica en optimizar la organización: recupera tiempo académico efectivo y elimina la fricción administrativa para estudiantes y docentes. 
+Puente entre Academia e Industria: Al implementar flujos de trabajo de nivel empresarial (CI/CD, trazabilidad, contenedores), el laboratorio se convierte en un simulador que prepara directamente a los alumnos para el mercado laboral moderno.  
+El Reto de la Integración Unificada: Dado que el grupo propone mejoras en diferentes áreas (hardware, software y procesos), el desafío final y la clave del éxito será mantener una gobernanza estricta para que todas las partes se comuniquen de forma segura, simple y sin conflictos.
 
 ## 3. Recomendaciones
 
