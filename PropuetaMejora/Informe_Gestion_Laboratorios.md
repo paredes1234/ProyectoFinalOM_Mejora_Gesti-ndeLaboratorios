@@ -21,6 +21,8 @@ Al revisar la propuesta base, se identificaron los siguientes problemas:
 - La aplicación de una matriz RACI conlleva la incorporación de procesos definidos para reservas, asignación de recursos y responsabilidades, ayudando a reducir las confusiones operativas entre los estudiantes y docentes.
 - El modelo organizacional propuesto favorece una formación más cercana al entorno profesional, al integrar trabajo colaborativo por squads, mentoría docente y prácticas de seguridad, automatización y gestión de infraestructura.    
 
+- El registro de solicitudes, aprobaciones y versiones permitiría identificar quién creó o modificó una imagen y para qué curso fue utilizada.
+- También es favorable establecer roles diferenciados para profesores, estudiantes y encargados, porque reduce la posibilidad de realizar cambios no autorizados.
 
 ### 1.3 Comentarios en contra
 
@@ -65,7 +67,16 @@ El beneficio organizativo: Optimización directa del tiempo efectivo de aprendiz
 
 ## 2. Conclusiones
 
-Resumir los principales resultados del análisis
+Arquitectura Modular y Escalable: El diseño por capas y el uso del Modelo Spotify permiten que distintos equipos (squads) trabajen e integren mejoras de forma paralela sin romper la estabilidad del sistema general.  
+
+Innovación en los Procesos: Más allá de las herramientas técnicas, el mayor valor del proyecto radica en optimizar la organización: recupera tiempo académico efectivo y elimina la fricción administrativa para estudiantes y docentes. 
+
+Puente entre Academia e Industria: Al implementar flujos de trabajo de nivel empresarial (CI/CD, trazabilidad, contenedores), el laboratorio se convierte en un simulador que prepara directamente a los alumnos para el mercado laboral moderno.  
+
+El Reto de la Integración Unificada: Dado que el grupo propone mejoras en diferentes áreas (hardware, software y procesos), el desafío final y la clave del éxito será mantener una gobernanza estricta para que todas las partes se comuniquen de forma segura, simple y sin conflictos.
+
+
+En conclusión, la implementación de esta plataforma híbrida representa una solución integral que trasciende lo técnico para optimizar de raíz los procesos operativos del laboratorio. Gracias a su arquitectura modular y al modelo organizacional ágil, las diversas propuestas de mejora planteadas por nuestro equipo pueden integrarse de manera sinérgica en cada capa del sistema, desde la gestión física hasta el portal de usuario. En última instancia, este proyecto grupal no solo elimina la fricción administrativa y estandariza los entornos de desarrollo, sino que transforma el espacio académico en un ecosistema profesional moderno que conecta directamente la formación universitaria con los más altos estándares de la industria tecnológica
 
 ## 3. Recomendaciones
 
