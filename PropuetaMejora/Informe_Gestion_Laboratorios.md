@@ -15,7 +15,7 @@ Al revisar la propuesta base, se identificaron los siguientes problemas:
 
 ### 1.2 Comentarios a favor
 
-Mencionar los puntos positivos de la propuesta revisada y explicar por qué podrían ser útiles.
+
 
 ### 1.3 Comentarios en contra
 
@@ -28,6 +28,10 @@ La cantidad de horas que estudiantes y administradores desperdician realizando i
 La incapacidad de los estudiantes para replicar de forma fácil y exacta el mismo entorno del laboratorio en sus computadoras personales.
 ### Ausencia de trazabilidad: 
 La falta de un registro claro y auditable sobre qué imágenes y software específico se utilizaron durante un curso o proyecto.
+### Riesgo de actualizaciones:
+Una actualización durante el semestre podría generar incompatibilidades en los proyectos.
+### Falta de control de versiones:
+No se establece una política para conservar o reemplazar versiones anteriores.
 
 ### 1.4 Observaciones
 
