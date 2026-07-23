@@ -98,6 +98,14 @@ Solución propuesta: Definir un proceso de incidentes con registro desde el port
 
 Beneficio organizativo: Permite responder de forma ordenada y medible ante problemas, disminuye el tiempo de interrupción de clases y evita repetir soluciones ya conocidas.
 
+### e. Inventario de componentes y licencias por imagen
+
+El problema operativo: Las imágenes Docker pueden incluir librerías, herramientas o dependencias con licencias desconocidas, incompatibles o no autorizadas. El escaneo de vulnerabilidades no garantiza por sí solo el cumplimiento de las licencias de software.
+
+La solución propuesta: Generar automáticamente un inventario de componentes de cada imagen antes de publicarla. Este registro debe incluir nombre, versión, origen y licencia de cada dependencia. Si se detecta software sin licencia identificada o no permitido, la publicación deberá bloquearse hasta su revisión.
+
+El beneficio organizativo: Permite conocer exactamente qué software contiene cada imagen, facilita las auditorías, reduce riesgos legales y mejora la trazabilidad de los entornos utilizados en cursos y proyectos.
+
 ## 2. Conclusiones
 
 Arquitectura Modular y Escalable: El diseño por capas y el uso del Modelo Spotify permiten que distintos equipos (squads) trabajen e integren mejoras de forma paralela sin romper la estabilidad del sistema general.  
