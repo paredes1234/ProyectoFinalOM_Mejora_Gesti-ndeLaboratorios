@@ -19,7 +19,15 @@ Mencionar los puntos positivos de la propuesta revisada y explicar por qué podr
 
 ### 1.3 Comentarios en contra
 
-Indicar las debilidades, riesgos o aspectos poco claros encontrados en los documentos.
+Se observo alguno problemas de en la parte de manejo docker los cuales son:
+### Inconsistencias de software: 
+El clásico problema de "funciona en mi máquina" generado por tener entornos no estandarizados con diferentes versiones de herramientas y librerías.
+### Pérdida de tiempo académico: 
+La cantidad de horas que estudiantes y administradores desperdician realizando instalaciones y configuraciones manuales en lugar de programar.
+### Dificultad de portabilidad: 
+La incapacidad de los estudiantes para replicar de forma fácil y exacta el mismo entorno del laboratorio en sus computadoras personales.
+### Ausencia de trazabilidad: 
+La falta de un registro claro y auditable sobre qué imágenes y software específico se utilizaron durante un curso o proyecto.
 
 ### 1.4 Observaciones
 
@@ -29,12 +37,19 @@ Agregar comentarios complementarios sobre información faltante, contradicciones
 
 ### Docker:
 
-1. Congelamiento Semestral de Entornos ("Cápsulas de Tiempo")
+### a. Congelamiento Semestral de Entornos ("Cápsulas de Tiempo")
 El problema operativo: En el desarrollo de software, las herramientas y dependencias se actualizan con mucha frecuencia. Si la plataforma actualiza automáticamente una imagen de contenedor a mitad de un semestre, existe un alto riesgo de que el código que los alumnos han estado desarrollando deje de compilar o funcione de manera errática por incompatibilidades con la nueva versión.
 
 La solución propuesta: Establecer una política de procesos de "congelamiento de versiones" al inicio de cada ciclo académico. Una vez   que el docente valida y aprueba la imagen oficial de su asignatura, esta se sella. Cualquier actualización técnica que el sistema       detecte se documentará y encolará para ser evaluada e implementada recién en el siguiente semestre. Las únicas excepciones serán        parches críticos de ciberseguridad.
 
 El beneficio organizativo: Garantiza predictibilidad y estabilidad operativa. Estudiantes y docentes tienen la certeza de que el        entorno técnico será idéntico desde la primera clase hasta la entrega del proyecto final, eliminando horas improductivas de soporte     técnico por errores de configuración.
+
+### b. Pre-carga Automática de Datos Académicos (Data Seeding)
+El problema operativo: La propuesta original resuelve excelentemente la entrega de software (ej. un motor de base de datos como PostgreSQL), pero no el contenido. Al iniciar una sesión de laboratorio, los usuarios pierden una porción significativa del tiempo de clase creando tablas e insertando datos ficticios manualmente para poder probar sus ejercicios.
+
+La solución propuesta: Integrar un proceso de "Data Seeding" (sembrado de datos) durante la creación de las imágenes. El administrador del laboratorio, en coordinación con el docente, preparará contenedores que no solo tengan el software instalado, sino que incluyan bases de datos pre-pobladas con miles de registros estandarizados listos para usarse.
+
+El beneficio organizativo: Optimización directa del tiempo efectivo de aprendizaje. El alumno descarga el contenedor y, al iniciarlo, cuenta inmediatamente con el ecosistema de datos necesario para programar, enfocando el esfuerzo en la resolución de problemas y no en la preparación del entorno.
 
 
 ## 2. Conclusiones
