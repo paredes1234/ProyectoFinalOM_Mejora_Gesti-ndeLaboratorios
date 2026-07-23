@@ -78,6 +78,17 @@ La solución propuesta: Integrar un proceso de "Data Seeding" (sembrado de datos
 
 El beneficio organizativo: Optimización directa del tiempo efectivo de aprendizaje. El alumno descarga el contenedor y, al iniciarlo, cuenta inmediatamente con el ecosistema de datos necesario para programar, enfocando el esfuerzo en la resolución de problemas y no en la preparación del entorno.
 
+### c. Sistema de reserva y asignación de laboratorios
+
+El problema operativo: Actualmente no se establece un proceso suficientemente claro para reservar los laboratorios ni para resolver conflictos cuando dos cursos o proyectos solicitan el mismo horario. Esto puede ocasionar cruces de horarios, cambios de último momento y laboratorios reservados que finalmente no son utilizados.
+
+La solución propuesta: Implementar un sistema centralizado de reservas en el cual los profesores y responsables de proyectos puedan solicitar un laboratorio indicando el curso, número de estudiantes, software requerido, fecha y horario.
+
+El sistema deberá verificar automáticamente la disponibilidad y evitar reservas duplicadas. Cuando exista un conflicto, se aplicarán criterios de prioridad, como cursos obligatorios, cantidad de estudiantes, disponibilidad de otros laboratorios y fecha de presentación de la solicitud.
+
+También se propone establecer un tiempo máximo para confirmar la reserva. Si el responsable no confirma o cancela con anticipación, el horario podrá ser liberado para otro curso o proyecto.
+
+El beneficio organizativo: Esta mejora permitiría aprovechar mejor los laboratorios, reducir los cruces de horarios y mantener un registro de quién reservó cada espacio. Además, facilitaría la planificación académica y permitiría identificar horarios libres que podrían ser utilizados por estudiantes o proyectos.
 
 ## 2. Conclusiones
 
