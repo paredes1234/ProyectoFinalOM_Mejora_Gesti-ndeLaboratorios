@@ -14,7 +14,9 @@ Al revisar la propuesta base, se identificaron los siguientes problemas:
 - Escasa trazabilidad de solicitudes, cambios, aprobaciones e incidencias.
 
 ### 1.2 Comentarios a favor
+
 - Se considera adecuada la utilización de imágenes Docker porque permite que estudiantes y profesores trabajen con las mismas versiones de herramientas, librerías y dependencias.
+- La centralización de las imágenes facilita su reutilización en diferentes cursos y evita que cada estudiante tenga que configurar manualmente su entorno de trabajo.
 
 
 ### 1.3 Comentarios en contra
