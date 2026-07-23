@@ -17,7 +17,9 @@ Al revisar la propuesta base, se identificaron los siguientes problemas:
 
 - Se considera adecuada la utilización de imágenes Docker porque permite que estudiantes y profesores trabajen con las mismas versiones de herramientas, librerías y dependencias.
 - La centralización de las imágenes facilita su reutilización en diferentes cursos y evita que cada estudiante tenga que configurar manualmente su entorno de trabajo.
-- La propuesta mejora la portabilidad, ya que los estudiantes podrían replicar en sus computadoras personales el mismo entorno utilizado dentro del laboratorio., quiero agregar esos comentarios a favor en diferentes commit que debo de poner al nombre de commit
+- La propuesta mejora la portabilidad, ya que los estudiantes podrían replicar en sus computadoras personales el mismo entorno utilizado dentro del laboratorio.
+- La aplicación de una matriz RACI conlleva la incorporación de procesos definidos para reservas, asignación de recursos y responsabilidades, ayudando a reducir las confusiones operativas entre los estudiantes y docentes.
+- El modelo organizacional propuesto favorece una formación más cercana al entorno profesional, al integrar trabajo colaborativo por squads, mentoría docente y prácticas de seguridad, automatización y gestión de infraestructura.    
 
 
 ### 1.3 Comentarios en contra
