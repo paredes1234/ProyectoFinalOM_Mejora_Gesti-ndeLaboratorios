@@ -92,6 +92,12 @@ El beneficio organizativo: Esta mejora permitiría aprovechar mejor los laborato
 
 ### d. Proceso formal de gestión de incidentes
 
+Problema operativo: No se detalla qué debe ocurrir ante fallas como caída de servicios, imágenes defectuosas, pérdida de acceso, problemas de red o equipos dañados durante una práctica.
+
+Solución propuesta: Definir un proceso de incidentes con registro desde el portal, clasificación por prioridad, responsable asignado, tiempos objetivo de atención y comunicación al usuario. También se pueden documentar soluciones frecuentes en una base de conocimiento.
+
+Beneficio organizativo: Permite responder de forma ordenada y medible ante problemas, disminuye el tiempo de interrupción de clases y evita repetir soluciones ya conocidas.
+
 ## 2. Conclusiones
 
 Arquitectura Modular y Escalable: El diseño por capas y el uso del Modelo Spotify permiten que distintos equipos (squads) trabajen e integren mejoras de forma paralela sin romper la estabilidad del sistema general.  
